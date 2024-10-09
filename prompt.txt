@@ -1,0 +1,182 @@
+// 0902 -0904
+you will be given data like this: 
+Qualcomm相關新聞
+PC晶片需求高峰已過 高階新品靜待2025
+跨足行動無線市場 意法高層道出高通合作關鍵
+高通S8 Gen 4晶片設計細節疑洩 這一代傳有雙版本
+高通推出 Networking Pro A7 Elite 平台整合 40 TOPS NPU 的 Wi-Fi 7 網路設備
+高通推出Networking Pro A7 Elite 平台
+MediaTek相關新聞
+三星採雙晶片組策略，Google 無意中透露 Galaxy S25 搭天璣 9400
+NVIDIA x MediaTek AI PC SoC將於2025年下半年首次亮相，將見證聯想、戴爾、惠普和華碩的整合
+無線通訊市場
+6G實驗網成型 ! 30家台灣業者聯手歐盟搶攻全球市場
+台、歐盟6G合作 30家台廠搶進
+Qualcomm相關新聞
+整合Wi-Fi 7和邊緣AI 高通發表Networking Pro A7 Elite無線網路平台
+explanation of example data:
+there will be five categories in total: Qualcomm相關新聞, MediaTek相關新聞, 無線通訊市場, 智慧型手機/消費性電子產品, 其他業界重要訊息, the news headlines between these categories will belong to the category above. For instance, "高通S8 Gen 4晶片設計細節疑洩 這一代傳有雙版本" belongs to the "Qualcomm相關新聞" category. Every category and the news headlines that belogn to it will appear multiple times, but they still belong to the same category. For example, "整合Wi-Fi 7和邊緣AI 高通發表Networking Pro A7 Elite無線網路平台" also belongs to "Qualcomm相關新聞".
+
+now begins the raw data
+
+
+raw data:
+Qualcomm相關新聞
+IFA展 高通可能發表平價CPU
+高通表示將在IFA上推出更實惠的ARM筆記型電腦，配備Snapdragon X Plus處理器僅售800美元
+更便宜的高通AI PC！8核心Snapdragon X Plus首個效能實測現身，GPU效能非常糟糕
+高通驍龍X Plus X1P-42-100 8核心CPU首個測試洩露，GPU效能低得可憐
+MediaTek相關新聞
+N/A
+無線通訊市場
+6G全球競賽開跑 數發部揭密應用新突破
+智慧型手機/消費性電子產品
+調研：2024年全球智慧型手機出貨量預期小幅年成長5%
+IDC預測：2024年生成式AI智慧型手機將成長360%，2028年CAGR將達70%
+全球智慧手機市場回暖 蘋果GenAI技術將成增長引擎
+又有傳言稱三星將獨家推出Snapdragon 8 Gen 4，三星可能被迫為其Galaxy S25系列收取30%的溢價
+品牌廠搶進折疊機市場 三星霸主地位受威脅
+三星S24平價版旗艦長這樣！FCC認證文件首度曝光實機
+傳小米將於明年第一季推出4nm製程的自製處理器，更可能推出三螢幕凹折手機
+華為海思晶片產能吃緊？從中芯先進製程營收貢獻推敲
+次旗艦手機比拼Google Pixel 9 V.S. vivo V40 Pro規格比較
+研究機構：Q2全球穿戴腕帶設備市場 華為和小米居第二、第三
+智慧音訊裝置Q2出貨攀同期高
+Sony日系防水手機上市3個月免萬元入手！Xperia 10 VI通路最低價格整理
+小米11吋平板現在買省很大！Xiaomi Pad 6通路最低價格一次看
+其他業界重要訊息
+台積電OIP生態系論壇 25日美國召開，將談新興先進節點設計挑戰
+台積電埃米級製程訂單來了A16未量產先轟動
+台積電全球OIP生態系統論壇9月25日北美開跑
+台積電OIP生態系論壇北美場9／25登場 討論先進製程節點設計挑戰
+台積先進製程優勢 難撼動
+IFA大展AI PC再衝一波 英特爾將在展前推新晶片
+慘輸台積電！英特爾傳賣晶圓代工賠錢貨 陸行之爆可能是它接盤
+英特爾傳分拆晶圓代工 格羅方德接手性高？
+Intel傳可能藉由拆分晶圓代工業務等方式，藉此改善公司發展困境
+SEMICON Taiwan 2024開展倒數！半導體大咖雲集、展示最新AI技術
+大爆滿！半導體展論壇CoWoS報名超過千人最熱門
+半導體展逾1100家廠商力挺AI先進封裝成焦點
+以邊緣AI即時分析駕駛行為 動見科技優化車隊管理效率
+Qualcomm相關新聞
+高通發表新品Snapdragon 6 Gen 3，被發現只是S7s Gen 2降頻版
+MediaTek相關新聞
+N/A
+無線通訊市場
+不甘外商吃肉台廠喝湯 國產6G射頻與基頻晶片2025下線
+信評：AI手機出貨有望助攻5G滲透率 估明後年發酵
+智慧型手機/消費性電子產品
+傳三星打「安全牌」S25全線採用高通Snapdragon
+三星Galaxy S25傳全採高通晶片 惟手機價格恐漲30%
+傳三星Galaxy S25獨家搭驍龍8 Gen 4，溢價三成轉嫁消費者
+3奈米良率欠佳，Galaxy S25系列高通全吃，三星電子賠了夫人又折兵
+Exynos 2500依舊難產？韓媒報導三星Galaxy S25全系列採用高通處理器
+三星改手機策略，S系列採高通技術、摺疊機配備Exynos晶片
+vivo V40系列開賣 台灣大、遠傳資費出爐
+小米14T系列規格售價曝光，基本款記憶體升級不加價
+強碰iPhone16！華為突襲官宣9／10新品發表 中國科技媒體：蘋果將下神壇
+華為新智慧機強碰蘋果 秀Mate70、三折機等「顛覆性產品」
+三折手機將對決蘋果iPhone 16？華為突然宣布10日新品發布會 與蘋果秋季發表同日競技
+Acer家的高通處理器筆電Swift 14 AI來囉！超過20小時續航力
+中國品牌積極布局，全球摺疊手機市場2024年Q2出貨量持續成長
+研究：全球摺疊手機市場出貨量持續成長 中國品牌積極布局各市場
+Counterpoint：第2季全球折疊手機市場出貨量年增48%
+其他業界重要訊息
+第二季急單挹注晶圓代工利用率，十大晶圓代工產值季增9.6%、世界先進上升兩名
+第2季全球晶圓代工產值增達320億美元 台積電逾6成市佔率稱霸
+台積電仍獨霸！全球晶圓代工市占率達62.3%最新統計狠甩各家
+集邦：台積電穩居晶圓代工龍頭 第2季市占率62.3%
+台積電穩坐第一！急單挹注 全球前十晶圓代工產值季增9.6%
+研調：供應鏈急單挹注晶圓代工 世界先進排名上升
+Q2晶圓代工產值季增近1成Q3增幅估相當
+客戶啟動拉貨，晶圓代工產業Q2回春，估Q3產值有望進一步增長
+韓媒：三星盼2030年擊敗台積電是不切實際
+英特爾晶圓代工排名 掉出十強
+英特爾若退出晶圓代工 三星地位鞏固仍不容鬆懈
+英特爾CEO反擊Intel 18A良率不佳傳聞 強調缺陷密度低於0.4
+英特爾救亡圖存謀分拆 台積躺著也中槍？
+傳Intel可能在2024年9月股東會提出出售Altera與凍結德國設廠的計畫
+大聯大詮鼎集團攜手創通聯達 賦能產業運用AI科技推動智慧轉型
+Qualcomm相關新聞
+Qualcomm悄悄地更新中階入門定位處理器Snapdragon 6 Gen 3
+高通座艙超智駕NVIDIA、英特爾看不到車尾燈
+大聯大詮鼎與創通聯達合作 掌握AIoT時代趨勢 運用AI科技推動智慧轉型
+大聯大詮鼎集團／創通聯達助產業打造AI應用
+MediaTek相關新聞
+蔡力行：AI發展挑戰仍多 晶片互連技術是最大瓶頸
+聯發科 CEO 蔡力行：AI資料中心需求多又快
+聯發科執行長蔡力行 化身天璣9400最佳銷售員
+半導體外的機會！聯發科蔡力行曝「台灣第二個生態系」
+聯發科多元擴展 蔡力行：到處都有AI
+AI世代 聯發科多元擴展運算晶片領域
+蔡力行：台半導體供應鏈完整 AI帶來絕佳機會
+聯發科蔡力行：天璣9400十月將亮相 AI帶來絕佳機會
+蔡力行：聯發科旗艦手機晶片天璣9400於10月上市
+聯發科天璣9400將亮相！蔡力行喊話：台灣有半導體生態系 也有系統生態系
+台灣半導體供應鏈強韌 蔡力行：AI時代與生態系統夥伴更緊密合作
+蔡力行：AI無所不在時刻，聯發科攜手產業鏈多元發展
+研華攜手聯發科技 擘劃Everyday AI策略
+無線通訊市場
+台灣大完成網路整併 申請繳回頻譜
+台灣大申請繳回超額頻譜 強調不應無償繳回
+頻譜超額之爭落幕，台灣大完成基地台整併、申請繳回5MHz x2頻譜
+台灣大申請繳回5MHz x2頻譜 完成與原台灣之星基地台整併
+智慧型手機/消費性電子產品
+三星S25系列 不再用自家處理器
+傳三星Galaxy S25全改用台積電晶片！價格恐漲30%
+三星Galaxy S25傳全面改用台積電晶片 售價恐漲3成
+NOKIA N9重現江湖HMD Hyper手機渲圖曝光，致敬NOKIA手機
+三星可能選在9月或10月公布親民價位設計手機Galaxy S24 FE，支援9W反向無線充電功能
+Google開發平價版Pixel 9！傳採用閹割版Tensor G4晶片
+與蘋果正面交鋒，華為9／10發表會傳推三摺機
+Q2手機處理器出貨量最新排名！聯發科穩居第1華為海思躋身第6
+全球摺疊手機市場2024年Q2出貨持續成長，中國品牌佔一半出貨量
+全球最熱銷10款平價手機揭曉！首度有5G機型入榜
+其他業界重要訊息
+Intel公布代號「Lunar Lake」的Core Ultra處理器更多性能細節，強調重寫x86架構電功耗與AI表現
+英特爾Lunar Lake、蘋果iPhone 16來了！高通、聯發科交火 台積3奈米爆單
+x86架構功耗大革命、台積3／6奈米助攻 英特爾Lunar Lake輾壓高通AI PC
+英特爾全新Intel Core Ultra處理器上陣 9月24日上架銷售
+Intel Core Ultra 200V系列處理器正式發表、9月24日全面上市，標榜禁得起考驗的真實世界續航力與性能的最佳AI PC平台
+Intel正式發表Core Ultra 200V系列處理器，今日起開始預購
+Intel Core Ultra 200V系列正式登場！能效大幅提升、AI算力最高120TOPS、更強GPU效能
+Intel Core Ultra 200V Lunar Lake發布：CPU、GPU和AI領先高通和AMD，電池壽命更長
+打臉x86功耗 超低延遲Intel Core Ultra 200V筆電處理器9／24正式登場
+新應用趨勢帶動半導體發展，台積電指汽車將是下個亮點
+晶圓代工致勝關鍵轉向封裝 三星恐難追台積
+Q2全球十大晶圓廠 陸三家進榜
+AMD Ryzen AI 300筆記型電腦將於11月免費獲得Microsoft Copilot+更新
+AI盟友齊聚SEMICON Taiwan鎖定半導體、HBM關鍵技術
+imec來台舉辦科技論壇 台積、聯發科參與
+
+
+Now begins the rules:
+
+Rules:
+智慧型手機/消費性電子產品
+ (plus搭載高通產品/技術的手機、平板、智慧手錶、汽車等)
+搭載高通產品/技術的東西會放最前面（例：手機、平板、智慧手錶、汽車等），接著會放其他廠商的新聞（例：三星、Google、蘋果）、研調機構（例：手機、平板、智慧手錶、汽車等），最後會放促銷的新聞（例：降價榜單）
+ 
+智慧裝置的部分會最優先排手機>PC>其他裝置（平板、XR裝置、手錶、汽車等）
+ 
+其他公司手機處理器的新聞（如：三星Exynos、華為Kirin、Google Tensor）分類是放在智慧型手機/消費性電子產品~ PC處理器是放在其他業界重要訊息
+ 
+智慧裝置（例：手機、PC、汽車等等）的研究報告會放在智慧裝置那一個分類
+另外手機的重點關注公司的動態（如：蘋果、華為、三星等）也是放在智慧裝置
+ 
+其他業界重要訊息
+ 
+台積電、三星、英特爾、微軟、華碩、宏達電、宏碁、半導體產業趨勢
+ 
+
+
+
+given the above raw data and rules, how would you expand the keywords for each category for a js program to predict the category based on the headline and according to the rules, and ignore the part in rules about sequence, we'lld eal with that later
+
+const keywordGroups = [
+    [["高通"], "Qualcomm相關新聞"],
+    [["聯發科"], "MediaTek相關新聞"],
+    [["5G"], "無線通訊市場"],
+    [["OPPO", "PC"], "智慧型手機/消費性電子產品"]
+    [["台積電"], "其他業界重要訊息"]
+  ];
